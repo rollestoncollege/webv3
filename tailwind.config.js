@@ -36,4 +36,7 @@ module.exports = {
   plugins: [
     require("flowbite/plugin")
   ],
+  // corePlugins: {
+  //   preflight: false,
+  // }
 }
