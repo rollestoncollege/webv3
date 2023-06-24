@@ -20,12 +20,12 @@ export default function Footer(current_page) {
               <li> 
                 {current_page == "about" ? <a href="/about" className="navbar-link-current " aria-current="page">About</a> : <a href="/about" className="navbar-link navbar-link">About</a>}
               </li>
-              <li>
+              {/* <li>
                 {current_page == "services" ? <a href="/about" className="navbar-link-curret " aria-current="page">Services</a> : <a href="/services" className="navbar-link navbar-link" >Services</a>}
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 {current_page == "contact" ? <a href="/contact" className="navbar-link-current " aria-current="page">Contact</a> : <a href="/contact" className="navbar-link navbar-link">Contact</a>}
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
